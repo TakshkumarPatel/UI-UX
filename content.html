@@ -259,6 +259,13 @@
             margin-bottom: 10px;
         }
 
+        .content-area h2 {
+            font-size: 28px;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            color: var(--accent-color);
+        }
+
         .content-meta {
             font-size: 14px;
             color: var(--secondary-text);
@@ -274,11 +281,22 @@
         .content-image {
             width: 100%;
             height: 300px;
-            background-image: url('https://www.neilsahota.com/wp-content/uploads/2022/09/What-is-AI-how-does-it-work.jpg');
             background-size: cover;
             background-position: center;
             border-radius: 10px;
             margin-bottom: 20px;
+        }
+
+        .ai-image {
+            background-image: url('https://www.neilsahota.com/wp-content/uploads/2022/09/What-is-AI-how-does-it-work.jpg');
+        }
+
+        .ml-image {
+            background-image: url('https://www.simplilearn.com/ice9/free_resources_article_thumb/Why-get-certified-in-Artificial-Intelligence.jpg');
+        }
+
+        .dl-image {
+            background-image: url('https://i.pinimg.com/736x/3a/7e/8b/3a7e8b0c033ed26dc10df24ad5b4782d.jpg');
         }
 
         /* Footer */
@@ -370,7 +388,7 @@
         <div class="profile-container">
             <button class="toggle-btn" onclick="toggleTheme()">☀️ / 🌙</button>
             <div class="profile">
-                <img src="./image.png" alt="Profile">
+                <img src="https://i.pinimg.com/736x/95/9a/0e/959a0ed15866a72bacb3c40db4e88b1c.jpg" alt="Profile">
                 <div class="dropdown">
                     <a href="#">Profile Page</a>
                     <a href="#">Logout</a>
@@ -402,12 +420,82 @@
         <p>
             Artificial Intelligence (AI) refers to the simulation of human intelligence in machines that are programmed to think and act like humans. It involves the development of algorithms and computer programs that can perform tasks that typically require human intelligence, such as visual perception, speech recognition, decision-making, and language translation.
         </p>
-        <div class="content-image"></div>
+        <div class="content-image ai-image"></div>
         <p>
             AI is a broad field that encompasses various subfields, including machine learning, deep learning, natural language processing (NLP), computer vision, and robotics. The goal of AI is to create systems that can learn from experience, adapt to new inputs, and perform tasks autonomously.
         </p>
         <p>
             Some key applications of AI include virtual assistants (like Siri and Alexa), autonomous vehicles, medical diagnosis, fraud detection, and personalized recommendations on platforms like Netflix and Amazon. As AI continues to evolve, it has the potential to revolutionize industries and improve the quality of life globally.
+        </p>
+
+        <!-- Machine Learning Section -->
+        <h2>Machine Learning (ML)</h2>
+        <p>
+            Machine Learning (ML) is a subset of artificial intelligence that focuses on the development of algorithms that allow computers to learn from and make predictions or decisions based on data. Unlike traditional programming, where rules are explicitly coded, ML systems improve their performance by identifying patterns and relationships within the data they are trained on.
+        </p>
+        <div class="content-image ml-image"></div>
+        <p>
+            ML is divided into three main types: supervised learning, unsupervised learning, and reinforcement learning. Supervised learning involves training a model on labeled data, unsupervised learning deals with finding hidden patterns in unlabeled data, and reinforcement learning trains agents to make decisions by rewarding them for desirable actions. Popular ML algorithms include linear regression, decision trees, support vector machines, and k-nearest neighbors.
+        </p>
+        <p>
+            Applications of ML are vast, ranging from spam email filtering and image recognition to predictive maintenance in industries and financial market analysis. ML is the backbone of many modern technologies and continues to drive innovation across sectors.
+        </p>
+
+        <!-- Deep Learning Section -->
+        <h2>Deep Learning (DL)</h2>
+        <p>
+            Deep Learning (DL) is a specialized subset of machine learning that uses neural networks with multiple layers (hence "deep") to model and solve complex problems. Inspired by the human brain, these neural networks consist of interconnected nodes (neurons) that process data in a hierarchical manner, enabling the system to learn intricate features directly from raw data.
+        </p>
+        <div class="content-image dl-image"></div>
+        <p>
+            DL excels in tasks where traditional ML might struggle, such as image and speech recognition, natural language processing, and game playing. Convolutional Neural Networks (CNNs) are widely used for computer vision tasks, while Recurrent Neural Networks (RNNs) are suited for sequential data like text or time series. Frameworks like TensorFlow and PyTorch have made DL more accessible to developers.
+        </p>
+        <p>
+            Real-world applications of DL include self-driving cars, facial recognition systems, medical image analysis (e.g., detecting tumors in X-rays), and advanced language models like those powering chatbots and translation services. DL's ability to handle large datasets and extract high-level abstractions makes it a cornerstone of modern AI advancements.
+        </p>
+
+        <!-- Additional Tutorial Sections -->
+
+        <!-- AI ML DS - How To Get Started? -->
+        <h2>AI ML DS - How To Get Started?</h2>
+        <p>
+            This section provides an introduction to the fundamentals of Artificial Intelligence, Machine Learning, and Data Science. It covers the prerequisites, tools, and learning paths needed to begin your journey in these rapidly evolving fields. Beginners are advised to start with basic programming, mathematics, and statistics before exploring specialized courses and projects.
+        </p>
+
+        <!-- Data Analysis (Analytics) Tutorial -->
+        <h2>Data Analysis (Analytics) Tutorial</h2>
+        <p>
+            In this tutorial, you will learn how to analyze data to extract meaningful insights. The course covers data cleaning, data visualization, statistical analysis, and the use of popular tools such as Excel, Python, and R. It emphasizes practical examples and real-world datasets to help you understand data trends and make data-driven decisions.
+        </p>
+
+        <!-- Machine Learning Tutorial -->
+        <h2>Machine Learning Tutorial</h2>
+        <p>
+            The Machine Learning Tutorial dives deeper into various ML algorithms, including supervised and unsupervised techniques. You will learn about model training, validation, and testing, as well as how to implement these models using libraries like Scikit-Learn and TensorFlow. Hands-on projects help solidify your understanding and enable you to solve real-world problems.
+        </p>
+
+        <!-- Natural Language Processing (NLP) Tutorial -->
+        <h2>Natural Language Processing (NLP) Tutorial</h2>
+        <p>
+            This tutorial explores the fascinating field of NLP, where machines are taught to understand and generate human language. Topics include text processing, sentiment analysis, language modeling, and the use of NLP libraries like NLTK and spaCy. You will work on projects that involve chatbots, language translation, and text summarization.
+        </p>
+
+        <!-- Computer Vision Tutorial -->
+        <h2>Computer Vision Tutorial</h2>
+        <p>
+            The Computer Vision Tutorial focuses on enabling machines to interpret and understand visual information. Learn about image processing, object detection, and image segmentation using libraries such as OpenCV and deep learning frameworks. This tutorial includes projects like facial recognition, autonomous driving, and augmented reality applications.
+        </p>
+
+        <!-- Data Science Tutorial -->
+        <h2>Data Science Tutorial</h2>
+        <p>
+            The Data Science Tutorial provides a comprehensive guide to collecting, processing, and analyzing large datasets. This section covers topics such as data wrangling, exploratory data analysis, machine learning integration, and the use of tools like SQL, Python, and Tableau. You will also explore case studies from various industries to see data science in action.
+        </p>
+
+        <!-- Artificial Intelligence Tutorial -->
+        <h2>Artificial Intelligence Tutorial</h2>
+        <p>
+            The Artificial Intelligence Tutorial offers an in-depth look into the concepts and applications of AI. Topics include knowledge representation, reasoning, expert systems, and the ethical implications of AI. By exploring case studies and current AI innovations, you will gain insights into how AI is transforming industries and shaping the future.
         </p>
     </div>
 </div>
@@ -425,3 +513,4 @@
 
 </body>
 </html>
+
